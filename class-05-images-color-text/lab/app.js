@@ -84,6 +84,10 @@ var testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(testArray) { //eslint-disable-line
 
+  var test1 = sum(testArray[0], testArray[1]);
+  console.log(test1);
+  var test2 = sum(test1[0], testArray[2]);
+  console.log(test2);
 }
 
 // TODO: Here is the test for sumArray(); uncomment it to run it
