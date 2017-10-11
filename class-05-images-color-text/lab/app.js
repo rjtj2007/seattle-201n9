@@ -18,7 +18,7 @@ function sum(a, b) { //eslint-disable-line
 }
 
 // TODO: Here is the test for sum(); uncomment it to run it
-// testSum(4, 7);
+testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -38,7 +38,7 @@ function multiply(a, b) { //eslint-disable-line
 }
 
 // TODO: Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+testMultiply(5,9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -65,7 +65,7 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
 }
 
 // TODO: Here is the test for sumAndMultiply(); uncomment it to run it
-// testSumAndMultiply(4,7,5);
+testSumAndMultiply(4,7,5);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -85,13 +85,16 @@ var testArray = [2, 3, 4]; //eslint-disable-line
 function sumArray(testArray) { //eslint-disable-line
 
   var test1 = sum(testArray[0], testArray[1]);
-  console.log(test1);
+  // console.log(test1);
   var test2 = sum(test1[0], testArray[2]);
-  console.log(test2);
+  // console.log(test2);
+  var message4 = testArray + ' was passed in as an array of numbers, and ' + test2[0] + ' is their sum.';
+  console.log(message4);
+  return [testArray, message4];
 }
 
 // TODO: Here is the test for sumArray(); uncomment it to run it
-// testSumArray(testArray);
+testSumArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
